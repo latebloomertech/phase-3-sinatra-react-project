@@ -6,11 +6,9 @@ class ApplicationController < Sinatra::Base
     { message: "Nothing is really here" }.to_json
   end
 
-
   get "/users" do
     users = User.all
     users.to_json
-    # { message: "the users" }.to_json
   end
 
   get "/users/:id" do
@@ -18,9 +16,9 @@ class ApplicationController < Sinatra::Base
     user.to_json
   end
 
-  
     get "/movies" do
-    # { message: "the movies" }.to_json
+      movie = Movie.all
+      movie.to_json
   end
 
   get "/movies/:id" do
@@ -28,9 +26,7 @@ class ApplicationController < Sinatra::Base
     movie.to_json
   end
 
-
   get "/reviews" do
-    # { message: "the reviews" }.to_json
     reviews = Review.all
     reviews.to_json
   end
