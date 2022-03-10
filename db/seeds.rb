@@ -10,12 +10,12 @@ puts "Creating users..."
 user1 = User.create(name: Faker::Name.name)
 
 puts "Creating movies..."
-movie1 = Movie.create(name: "Her", poster_url: "")
-movie2 = Movie.create(name: "Star Wars", poster_url: "")
-movie3 = Movie.create(name: "The Batman", poster_url: "")
-movie4 = Movie.create(name: "After Yang", poster_url: "")
-movie5 = Movie.create(name: "Blacklight", poster_url: "")
-movie6 = Movie.create(name: "Nightride", poster_url: "")
+movie1 = Movie.create(name: "Her", poster_url: "https://resizing.flixster.com/LHHNO_V755D3CEWdj_7Qp-vtHO8=/fit-in/80x126/v2/https://flxt.tmsimg.com/assets/p9991186_p_v8_ag.jpg")
+movie2 = Movie.create(name: "Star Wars", poster_url: "https://resizing.flixster.com/kMIUvpDVv_oQABEDe1lp-6HDQWw=/206x305/v2/https://flxt.tmsimg.com/assets/p4407_p_v12_ab.jpg")
+movie3 = Movie.create(name: "The Batman", poster_url: "http://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/50x75/v2/https://resizing.flixster.com/z7Qex7L7ZUT1YdAwuJ49BEulml4=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzLzc1OGFlMDI0LTE1ZTEtNDE4ZS04Y2RmLWNjYzcyOWQyZmMyNi5qcGc=")
+movie4 = Movie.create(name: "After Yang", poster_url: "http://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/50x75/v2/https://resizing.flixster.com/gOOmso8R_7Hfa66nDEt39EYdTDs=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2Q4ZDY5OGEzLTcyM2EtNDYwOS1hZWQ0LTBjMDBjYTQwODI4MS5qcGc=")
+movie5 = Movie.create(name: "Blacklight", poster_url: "http://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/50x75/v2/https://resizing.flixster.com/iIJGaRQoiutL5j2xRfytiqyMyMU=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2Q2YmUyNTA4LWMwYjMtNDJmMi1iYmRhLTVlNWU0YzVjOWMxMy5qcGc=")
+movie6 = Movie.create(name: "Nightride", poster_url: "http://resizing.flixster.com/IaXbRF4gIPh9jireK_4VCPNfdKc=/50x75/v2/https://resizing.flixster.com/HCX7jaH7_7kGZxDpykvcdtU3bmo=/ems.ZW1zLXByZC1hc3NldHMvbW92aWVzL2M3Nzc2MDRiLWNhMzctNGIzOC1iMzBiLTQ3NDk3N2M2N2VmMi5wbmc=")
 
 puts "Creating reviews..."
 

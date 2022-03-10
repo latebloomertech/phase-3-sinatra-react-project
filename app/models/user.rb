@@ -10,6 +10,7 @@ def create_review(movie,rating,comment)
     Review.create(star_rating: rating, comment: comment, user_id: self.id, movie_id: movie.id)
 end
 
+# Not working as expected:
 def all_user_reviews
     self.reviews.each do |review|
         "#{review.movie.name} rating: #{review.movie.star_rating}, review: #{review.movie.comment}"
