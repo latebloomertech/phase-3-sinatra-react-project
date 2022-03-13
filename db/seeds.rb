@@ -19,18 +19,18 @@ movie6 = Movie.create(name: "Nightride", poster_url: "http://resizing.flixster.c
 
 puts "Creating reviews..."
 
-Review.create(star_rating: 4, comment: "Wow", user_id: user1.id, movie_id: movie5.id)
-Review.create(star_rating: 3, comment: "Pretty cool", user_id: user1.id, movie_id: movie4.id)
-Review.create(star_rating: 2, comment: "Just OK", user_id: user1.id, movie_id: movie3.id)
-Review.create(star_rating: 5, comment: "Amazing", user_id: user1.id, movie_id: movie2.id)
-Review.create(star_rating: 5, comment: "Awesome", user_id: user1.id, movie_id: movie1.id)
-Review.create(star_rating: 2, comment: "Boring", user_id: user1.id, movie_id: movie1.id)
-Review.create(star_rating: 3, comment: "Kinda fun", user_id: user1.id, movie_id: movie2.id)
-Review.create(star_rating: 4, comment: "Great", user_id: user1.id, movie_id: movie3.id)
-Review.create(star_rating: 4, comment: "Cool", user_id: user1.id, movie_id: movie4.id)
-Review.create(star_rating: 3, comment: "Liked it", user_id: user1.id, movie_id: movie5.id)
-Review.create(star_rating: 1, comment: "Sucks", user_id: user1.id, movie_id: movie6.id)
-Review.create(star_rating: 2, comment: "Boring", user_id: user1.id, movie_id: movie6.id)
+Review.create(star_rating: 4, comment: "The movie Her was really cool.  Mi friend didn't like it, but I loved it.", user_id: user1.id, movie_id: movie5.id)
+Review.create(star_rating: 3, comment: "Star Wars is one of my favorite movies.  I watch it a couple of times a year.", user_id: user1.id, movie_id: movie4.id)
+Review.create(star_rating: 2, comment: "I'm not sure why I even watched Uncharted", user_id: user1.id, movie_id: movie3.id)
+Review.create(star_rating: 5, comment: "The Batman is worth watching - I recommend it", user_id: user1.id, movie_id: movie2.id)
+# Review.create(star_rating: 5, comment: "Awesome", user_id: user1.id, movie_id: movie1.id)
+# Review.create(star_rating: 2, comment: "Boring", user_id: user1.id, movie_id: movie1.id)
+# Review.create(star_rating: 3, comment: "Kinda fun", user_id: user1.id, movie_id: movie2.id)
+# Review.create(star_rating: 4, comment: "Great", user_id: user1.id, movie_id: movie3.id)
+# Review.create(star_rating: 4, comment: "Cool", user_id: user1.id, movie_id: movie4.id)
+# Review.create(star_rating: 3, comment: "Liked it", user_id: user1.id, movie_id: movie5.id)
+# Review.create(star_rating: 1, comment: "Sucks", user_id: user1.id, movie_id: movie6.id)
+# Review.create(star_rating: 2, comment: "Boring", user_id: user1.id, movie_id: movie6.id)
 
 
 
